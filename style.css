@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color:#acced0;
+}
+
+h1{
+    background-color: rgb(0, 12, 54);
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem; 
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: 0 0 35px rgb(0, 0, 0);
+    background-color: #fff;
+
+}    
+
+.choice:hover{
+    opacity: 92%;
+    cursor: pointer;
+    border: 4px solid black;
+    box-shadow: 0 0 90px yellow;
+
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.result{
+    margin: 2.5rem;
+    padding: 0 8rem;
+    display: inline-flex;
+    background-color: rgb(0, 110, 255);
+    /* height: 1rem; */
+    font-size: 3rem;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: inset 0 0 17px black;
+
+}
+
+.red{
+    background-color: rgb(255, 49, 49);
+}
+.green{
+    background-color: rgb(0, 255, 0);
+}
+.gold{
+    background-color: gold;
+}
+
+img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 60%;
+}
+
+.score-board{
+    /* margin-top: 5rem; */
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 2.8rem;
+
+}
+
+.userName,.compName{
+    font-size:1.8rem;
+}
+
+.msg-container{
+    display: inline;
+    gap: 5rem;
+}
+
+button{
+    margin-top: 2.3rem;
+    height: 6vh;
+    /* line-height: 7vh; */
+    font-size: 4vmin;
+    background-color: rgb(78, 0, 151);
+    border: 3px solid black;
+    color: #fff;
+    display: inline-table;
+    padding: 0 9px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(10, 10, 10);
+
+}
+
+button:hover{
+    opacity: 90%;
+    box-shadow: 0 0 50px yellow;    
+}
